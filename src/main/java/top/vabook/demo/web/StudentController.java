@@ -32,7 +32,7 @@ public class StudentController {
     @Autowired
     private IStudentService iStudentService;
 
-    @PostMapping("/list")
+    @RequestMapping("/list")
     @ApiOperation(value="学生列表")
     public Result list(HttpServletRequest r ){
         LOGGER.info("学生列表");

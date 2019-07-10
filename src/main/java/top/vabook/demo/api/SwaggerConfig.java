@@ -33,6 +33,6 @@ public class SwaggerConfig {
     // 预览地址:swagger-ui.html
     private ApiInfo apiInfo(){
         return  new ApiInfoBuilder().title("Spring 中使用Swagger2构建文档").termsOfServiceUrl("https://blog.52itstyle.com")
-                .contact(new Contact("vabook","vabook.top","vabook@163.com")).version("1.1").build();
+                .contact(new Contact("vabook","https://www.vabook.top","vabook@163.com")).version("1.1").build();
     }
 }
